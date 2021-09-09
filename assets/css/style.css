@@ -2044,5 +2044,10 @@ section {
 }
 
 input:focus, select:focus, textarea:focus {
-    outline: 0
+    outline: 0 !important;
+}
+
+.fp{
+    cursor: pointer;
+    font-size: 15px;
 }
