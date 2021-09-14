@@ -21,7 +21,7 @@
     <script src="../../assets/js/animation-player.js"></script>
 </head>
 
-<body>
+<body class="profile">
     <header id="header" class="header fixed-top">
         <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
             <a href="../../index.html" class="logo d-flex align-items-center">
@@ -37,55 +37,83 @@
         </div>
     </header>
     <main>
-        <div class="container rounded">
+        <div class="container">
             <div class="row">
-                <div class="col-md-3 border-right">
-                    <div class="d-flex flex-column align-items-center text-center p-3 py-5"><img
-                            class="rounded-circle mt-5" width="150px"
-                            src="https://st3.depositphotos.com/15648834/17930/v/600/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg"><span
-                            class="font-weight-bold">Mahi</span><span
-                            class="text-black-50">muktadir.mahi@boc.com</span><span> </span></div>
-                </div>
-                <div class="col-md-5">
-                    <div class="p-3 py-5">
-                        <h4 class="text-center">Posted Problems</h4>
-                        <div class="problems mt-4">
-                            <h5>Lorem ipsum dolor sit.</h5>
-                            <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores sint hic eius at adipisci eligendi quos velit exercitationem omnis molestias....</small>
+                <div class="col-md-4 col-12">
+                    <div class="m-3 text-center">
+                        <div class="info my-3">
+                            <img src="https://via.placeholder.com/150" alt="DP" class="w-50 my-3">
+                            <h4>Muktadirul Islam Mahi :)</h4>
+                            <h6>Dhaka Residential Model Jail</h6>
+                            <small>Olympiadian since 1 January, 2120</small>
                         </div>
-                    </div>
-                    <div class="p-3 py-5">
-                        <h4 class="text-center">Solved Problems</h4>
-                        <div class="problems mt-4">
-                            <h5>Lorem ipsum dolor sit.</h5>
-                            <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores sint hic eius at adipisci eligendi quos velit exercitationem omnis molestias....</small>
-                            <br><br>
-                            <h5>Your answer: lorem</h5>
-                        </div>
+                        <hr>
+                        <a href="./edit-profile.html">
+                            <button class="profile-button py-1 px-4 rounded">Edit Profile</button>
+                        </a>
                     </div>
                 </div>
-                <div class="col-md-4 border-right">
-                    <div class="p-3 py-5">
-                        <div class="d-flex justify-content-between align-items-center mb-3">
-                            <h4 class="text-right">Profile Information</h4>
+                <div class="col-md-8 col-12">
+                    <div class="box">
+                        <h4 class="text-center">Statistics</h4>
+                        <hr>
+                        <div class="row">
+                            <div class="col-12 col-md-6 br-1">
+                                Points: 25 <br>
+                                <!--Every question contains 5 marks-->
+                                Rank: Newbie <br>
+                                Next Rank: Bronze (Will be upgraded on 50 points)
+                                <!--
+                                    পয়েন্ট ০-১০ থাকলে Fresher
+                                    ১১-৫০ Newbie
+                                    51-100 Bronze 
+                                    101-200 Silver
+                                    200-350 Gold
+                                    350-500 Diamond
+                                    500-700 Platinum
+                                    700-1000 Master
+                                    >1000 Star
+                                -->
+                                <hr class="d-md-none">
+                            </div>
+                            <div class="col-12 col-md-6">
+                                Problems Solving Attempts: 12 <br>
+                                Right Answers: 5 <br>
+                                Earned Points: 25
+                                <hr class="d-md-none">
+                            </div>
                         </div>
-                        <div class="row mt-2">
-                            <h6>Name: Lorem ipsum dolor sit.</h6>
-                            <h6>Institution: Lorem ipsum dolor sit amet.</h6>
-                            <h6>Class: 9</h6>
-                            <h6>Mobile Number: 01711111111</h6>
-                            <h6>Email: ajaira@boc.com</h6>
-                            <h6>Favorite Subjects: Lorem, ipsum.</h6>
-                            <a href="https://facebook.com">
-                                <h6>Facebook Profile</h6>
-                            </a>
-                            <h6>Olympiadian Status: General</h6>
+                    </div>
+                    <div class="box">
+                        <h4 class="text-center">Solves</h4>
+                        <hr>
+                        <div class="box nr bg-light">
+                            <div class="row">
+                                <div class="col-1 br-1 text-center">
+                                    <h1>1</h1>
+                                </div>
+                                <div class="col-10 d-flex flex-column align-items-center text-start">
+                                    <h6>Problem Title</h6>
+                                    <h5>Your Answer: $$$</h5>
+                                </div>
+                                <div class="col-1 d-flex align-items-center justify-content-center">
+                                    <i style="font-size: 40px; color: green;" class="bi-check-circle-fill"></i>
+                                </div>
+                            </div>
                         </div>
-                        <br>
-                        <div class="mt-5 text-center">
-                            <a href="./edit-profile.html">
-                                <button class="btn btn-primary profile-button" type="button">Edit Profile</button>
-                            </a>
+                        <div class="box nr bg-light">
+                            <div class="row">
+                                <div class="col-1 br-1 text-center">
+                                    <h1>2</h1>
+                                </div>
+                                <div class="col-10 d-flex flex-column align-items-center text-start">
+                                    <h6>Problem Title</h6>
+                                    <h5>Your Answer: $$$</h5>
+                                </div>
+                                <div class="col-1 d-flex align-items-center justify-content-center">
+                                    <i style="font-size: 40px; color: red;" class="bi-x-circle-fill"></i>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -152,7 +180,6 @@
             class="bi bi-arrow-up-short"></i></a>
     <script src="../../assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
     <script src="../../assets/vendor/aos/aos.js"></script>
-    <script src="../../assets/vendor/php-email-form/validate.js"></script>
     <script src="../../assets/vendor/swiper/swiper-bundle.min.js"></script>
     <script src="../../assets/vendor/purecounter/purecounter.js"></script>
     <script src="../../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>

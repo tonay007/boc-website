@@ -1,46 +1,5 @@
 body {
-    background-image: linear-gradient(270deg, rgb(0, 248, 236), rgb(0, 157, 248));
-}
-
-.form-control:focus {
-    box-shadow: none;
-    border-color: #BA68C8
-}
-
-.profile-button {
-    background: rgb(99, 39, 120);
-    box-shadow: none;
-    border: none
-}
-
-.profile-button:hover {
-    background: #682773
-}
-
-.profile-button:focus {
-    background: #682773;
-    box-shadow: none
-}
-
-.profile-button:active {
-    background: #682773;
-    box-shadow: none
-}
-
-.back:hover {
-    color: #682773;
-    cursor: pointer
-}
-
-.labels {
-    font-size: 11px
-}
-
-.add-experience:hover {
-    background: #BA68C8;
-    color: #fff;
-    cursor: pointer;
-    border: solid 1px #BA68C8
+    font-family: "Nunito", sans-serif !important;
 }
 
 main {
@@ -48,17 +7,76 @@ main {
     margin-bottom: 10px;
 }
 
-header {
-    height: 80px;
-    background-color: #fff;
+.profile-button {
+    background: #4154f1;
+    box-shadow: none;
+    border: none;
+    color: white;
 }
 
 .container.rounded {
     background: rgb(255, 255, 255);
 }
 
-.problems {
-    border: 1px solid black;
-    padding: 10px;
+.edit-profile header {
+    height: 80px;
+    background-color: #fff;
+}
+
+.edit-profile .form-control:focus {
+    box-shadow: none;
+    border-color: #BA68C8;
+}
+
+.edit-profile .profile-button:hover {
+    background: #6070ff;
+}
+
+.edit-profile .profile-button:focus {
+    background: #4154f1;
+    box-shadow: none
+}
+
+.edit-profile .profile-button:active {
+    background: #4154f1;
+    box-shadow: none
+}
+
+.edit-profile .back:hover {
+    color: #4154f1;
+    cursor: pointer
+}
+
+.edit-profile .labels {
+    font-size: 11px
+}
+
+.edit-profile .add-experience:hover {
+    background: #4154f1;
+    color: #fff;
+    cursor: pointer;
+    border: solid 1px #4154f1
+}
+
+.profile main {
+    background-image: url(../../assets/img/bg.jpg);
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+
+.profile .box {
+    border: 1px rgba(0, 0, 0, 0.192) solid;
     border-radius: 10px;
+    background: transparent;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.br-1{
+    border-right: 1px rgba(0, 0, 0, 0.192) solid;
+}
+
+.nr{
+    border-radius: 0 !important;
 }
